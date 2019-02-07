@@ -14,6 +14,8 @@ public abstract class AnimalsAbstract  {
         this.year = year;
     }
     public abstract String move();
+    public abstract String breath();
+    public abstract String reproduce();
 
     public void consume(){
         System.out.println("it consumes");
